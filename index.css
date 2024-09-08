@@ -4,31 +4,31 @@
 }
 .container {
   background-color: black;
-  width: 350px;
-  height: 400px;
+  
+  padding: 1rem;
   border-radius: 10px;
 }
 .display {
   background-color: greenyellow;
   height: 40px;
-  width: 75%;
   border-radius: 10px;
   text-align: right;
   font-size:30px;
   font-weight: bold;
-  padding: 10px;
+  width: 17rem;
+  overflow-x: hidden
 }
 .displayContainer {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  
 }
 .first {
   display: flex;
   flex-direction: row;
   column-gap: 10px;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 1rem;
 
 }
 .second{
